@@ -26,8 +26,6 @@ jobs:
   test2:
     timeout-minutes: 60
     runs-on: ubuntu-latest
-    if: ${{success()}}
-    needs: [test]
     steps:
     - uses: actions/checkout@v3
     - uses: actions/setup-node@v3
