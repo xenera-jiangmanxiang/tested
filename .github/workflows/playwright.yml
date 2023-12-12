@@ -1,5 +1,5 @@
 name: Playwright Tests
-run-name: ${{ github.actor }} initiated an automated test 🚀
+run-name: ${{ github.actor }}  initiated an automated test 🚀
 on:
   push:
     branches: [ main ]
