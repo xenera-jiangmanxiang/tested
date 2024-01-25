@@ -8,6 +8,7 @@ jobs:
     uses: ./.github/workflows/github-actions-demo.yml
     with:
       env_name: 'dev'
+    secrets: inherit 
   test:
     timeout-minutes: 60
     runs-on: ubuntu-latest
